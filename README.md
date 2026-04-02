@@ -38,16 +38,10 @@ This starts PostgreSQL, Zookeeper, Kafka, and the application. The API is availa
 
 ### Run Locally (dev)
 
-Start infrastructure only:
+Start with one command:
 
 ```bash
-docker compose up postgres zookeeper kafka
-```
-
-Then run the application:
-
-```bash
-./mvnw spring-boot:run
+docker compose up --build
 ```
 
 ## API Usage
